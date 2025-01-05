@@ -2,14 +2,66 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color: aqua;
+   
    
       
     
 }
-.anton-regular {
-    font-family: "Anton", serif;
-    font-weight: 400;
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
     font-style: normal;
   }
+  
 
+.image{
+    position:absolute ;
+    top: 150px;
+   right: 120px;
+   
+}
+.pass{
+    color:#f56e58 ;
+}
+
+.main{
+    position: absolute;
+    top: 30%;
+    left: 60px;
+    font-size: 40px;
+}
+
+#output{
+    height: 60px;
+    width: 90%;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    font-weight: 500;
+    
+   
+}
+.gen{
+    height: 40px;
+    width: 50%;
+  font-family: 20px;
+  font-weight: 300;
+  cursor: pointer;
+background-color: #f56e58;
+border-radius: 5px;
+
+    
+}
+.gen img{
+    height: 20px;
+}
+.container{
+   
+    width: 130%;
+}
+.cp{
+    height: 35px;
+    width:35px;
+    cursor: pointer;
+    padding-top: 5px;
+}

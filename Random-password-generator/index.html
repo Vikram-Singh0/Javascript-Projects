@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Password generator</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&display=swap" rel="stylesheet">
 </head>
 <body class="">
-    <h1 class=".anton-regular">Random password generator</h1>
+    <div class="main alfa-slab-one-regular">
+        <h3>Random  <span class="pass">Password</span> <br>
+        Generator
+        </h3>
+        <div class="container">
+        <input type="text" placeholder="Your  Password" id="output"> 
+        <img src="./images/copy.png" onclick="copyPassword()" class="cp">
+    </div>
+        <br>
+        <button class="gen" onclick="createPassword()"><img src="./images/power.png" alt="">  Generate password</button>
+    </div>
+
+
+    <div class="photo"><img class="image" src="./images/my-password-concept-illustration_114360-3864.avif" alt=""></div>
     
 
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
